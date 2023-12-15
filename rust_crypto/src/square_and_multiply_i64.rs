@@ -31,7 +31,7 @@ pub mod square_and_multiply {
     }
 
     // expo modu (x puiss y) mod n
-    pub fn sam(x: u64, y: u64, n: u64) -> u64 {
+    pub fn sam_i64(x: u64, y: u64, n: u64) -> u64 {
         let mut binar: Vec<i8> = integer_64_to_bit(y);
         //println!("binaire de la puissance:{:?}", binar);
 
